@@ -121,7 +121,7 @@ const ContactSection: React.FC = () => {
                     value={formData.name}
                     onChange={handleChange}
                     className="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-emerald-500 transition-all"
-                    placeholder="John Doe"
+                    placeholder="Full name"
                   />
                 </div>
                 <div>
@@ -134,7 +134,7 @@ const ContactSection: React.FC = () => {
                     value={formData.email}
                     onChange={handleChange}
                     className="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-emerald-500 transition-all"
-                    placeholder="john@example.com"
+                    placeholder="email"
                   />
                 </div>
               </div>
