@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Refugee Rise Initiative</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif; /* A good sans-serif font often used with Tailwind */
+    }
+    .neon-text-green {
+      text-shadow: 0 0 5px #10b981, 0 0 10px #10b981, 0 0 15px #10b981, 0 0 20px #34d399;
+    }
+    .neon-text-blue {
+      text-shadow: 0 0 5px #3b82f6, 0 0 10px #3b82f6, 0 0 15px #3b82f6, 0 0 20px #60a5fa;
+    }
+    .neon-border-green {
+      border-color: #10b981;
+      box-shadow: 0 0 5px #10b981, 0 0 8px #10b981;
+    }
+    .neon-border-blue {
+      border-color: #3b82f6;
+      box-shadow: 0 0 5px #3b82f6, 0 0 8px #3b82f6;
+    }
+    .gradient-bg {
+      background: linear-gradient(135deg, #0f172a, #1e293b, #000000); /* Deep slate to black for trust */
+    }
+    .hero-bg-pattern {
+      background-image: radial-gradient(circle at 10% 20%, rgba(16, 185, 129, 0.1) 0%, transparent 30%),
+                        radial-gradient(circle at 80% 70%, rgba(59, 130, 246, 0.1) 0%, transparent 30%);
+      background-color: #020617; /* Slate-950 */
+    }
+    /* Custom scrollbar for better aesthetics with dark theme */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0f172a; /* Slate-900 */
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #10b981; /* Green */
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #34d399; /* Lighter green */
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
+
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="gradient-bg text-gray-200 antialiased">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
+    

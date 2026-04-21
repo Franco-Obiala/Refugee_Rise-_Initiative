@@ -1,2 +1,20 @@
-# Refugee_Rise-_Initiative
-Refugee Rise is a web platform supporting refugee entrepreneurs in Kakuma and Kalobeyei by providing access to affordable shop spaces, tracking business growth, and showcasing impact. It connects investors, partners, and communities to scale sustainable livelihoods and reduce aid dependency.
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/0fb9e305-cdc5-4e9b-a079-1ceb00523418
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
